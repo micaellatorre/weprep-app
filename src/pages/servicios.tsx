@@ -66,7 +66,7 @@ export default function Servicios() {
             image: 'fba-slide-3.jpg',
             alt: 'Slide 3',
             title: 'Paso 3: Envío',
-            description: 'Una vez finalizado el proceso de preparación, nos encargamos del envío de tus productos de manera eficiente y segura. Utilizamos métodos de embalaje adecuados para garantizar que tus artículos lleguen a su destino en perfectas condiciones, protegiéndolos contra posibles daños durante el transporte. Actualizamos la información de envío en Amazon, proporcionando los detalles necesarios para el seguimiento del paquete por parte del cliente. Nuestro objetivo es asegurar que tus productos lleguen a tiempo y en óptimas condiciones, brindándote tranquilidad y satisfacción en cada envío.',
+            description: 'Una vez finalizado el proceso de preparación, nos encargamos del envío de tus productos de manera eficiente y segura. Utilizamos métodos de embalaje adecuados para garantizar que tus artículos lleguen a su destino en perfectas condiciones, protegiéndolos contra posibles daños durante el transporte. Actualizamos la información de envío, proporcionando los detalles necesarios para el seguimiento del paquete por parte del cliente. Nuestro objetivo es asegurar que tus productos lleguen a tiempo y en óptimas condiciones, brindándote tranquilidad y satisfacción en cada envío.',
         },
     ];
 
@@ -87,7 +87,7 @@ export default function Servicios() {
                             Nuestros Servicios
                         </h3>
                         <p className="text-[18px] text-[#916834] leading-8 text-justify">
-                            Explora nuestros servicios principales son <strong>FBA</strong> y <strong>FBM</strong>. Nos orgullecemos de ofrecer soluciones integrales para tus necesidades de comercio en Amazon. Desde la recepción hasta el envío, nos encargamos de cada paso del proceso logístico para garantizar la eficiencia y la calidad en tus operaciones. Descubre cómo podemos simplificar tu experiencia de venta en línea y ayudarte a alcanzar tus objetivos comerciales.
+                            Explora nuestros servicios principales: <strong>FBA</strong> y <strong>FBM</strong>. Nos orgullecemos de ofrecer soluciones integrales para tus necesidades de comercio en Amazon. Desde la recepción hasta el envío, nos encargamos de cada paso del proceso logístico para garantizar la eficiencia y la calidad en tus operaciones. Descubre cómo podemos simplificar tu experiencia de venta en línea y ayudarte a alcanzar tus objetivos comerciales.
                         </p>
                     </div>
                     {/* FBA */}
@@ -148,10 +148,13 @@ export default function Servicios() {
                                             iconAlt="Inspeccion Productos" />
                                     </div>
                                 </div>
+                                <h3 className="text-[30px] text-[#916834]">
+                                    Costos por Productos
+                                </h3>
                                 <div className="flex flex-row gap-[30px] flex-wrap">
                                     <OptionsFBA
                                         title="Básico"
-                                        description="Cantidad (25 - 100)
+                                        description="Cantidad (1 - 100)
                                         <br/>
                                         Elementos de Tamaño Estándar"
                                         src="/basico.svg"

@@ -190,7 +190,7 @@ export default function Home() {
                       WePrep ofrece un listado de productos sugeridos que cuentan tanto con métricas de <strong>ROI</strong> y <strong>Profit</strong> considerables que serán ideales para aquellos usuarios de Amazon que desarrollen el negocio de Online Arbitrage.
                     </p>
                     <h4 className="text-[25px] font-bold text-center">
-                      Obtene tus Productos
+                      Obtené tus Productos
                     </h4>
                   </div>
                 </div>
@@ -213,8 +213,9 @@ export default function Home() {
                   </div>
                   <div className="flex flex-col items-start text-justify h-full justify-between">
                     <p className="text-[18px] leading-7">
-                      El prep center cuenta con su línea gratuita de atención al cliente para aquellos que tengan inconvenientes o dudas con temas relacionados a Amazon, tales como Sellercentral, análisis de productos y soporte.
+                      El prep center cuenta con su comunidad privada de atención al cliente para aquellos que tengan inconvenientes o dudas con temas relacionados a Amazon, tales como Sellercentral, análisis de productos y soporte.
                     </p>
+                    {/* Agregar un botton para cada link q lleve a whatsapp */}
                     <h4 className="text-[25px] font-bold text-center">
                       Soporte Integral
                     </h4>
