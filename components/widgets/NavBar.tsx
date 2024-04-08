@@ -15,7 +15,7 @@ const NavBar: React.FC = () => {
     const isCurrentPath = (path: string) => router.pathname === path;
 
     return (
-        <nav className="z-50 px-8 py-4 flex w-[100%] justify-between fixed top-0 left-0 bg-[#faf7eacb] shadow-[0_4px_30px_-15px_rgba(0,0,0,0.1)] backdrop-blur-[5px]">
+        <nav className="z-50 px-8 py-4 flex w-full justify-between fixed top-0 left-0 bg-[#faf7eacb] shadow-[0_4px_30px_-15px_rgba(0,0,0,0.1)] backdrop-blur-[5px]">
             <div className="flex items-center">
                 <Link href="/">
                     <Image src="/weprep-logotype.svg" alt="WePrep" width={224} height={80} />

@@ -7,7 +7,7 @@ const HeroSection: React.FC = () => {
     return (
         <div className="flex w-full min-h-svh items-center justify-center pt-5 pb-5 2xl:pt-0">
             <img src="/hero-left.svg" alt="Left Image" className="absolute max-w-sm left-0 2xl:max-w-lg" />
-            <div className="absolute flex flex-col align-middle justify-center flex-1 pt-20 gap-10">
+            <div className="absolute flex flex-col align-middle justify-center z-10 flex-1 mt-20 gap-10 bg-[#faf7eacb] p-10 backdrop-blur-[5px] rounded-md">
                 <div className="flex flex-col gap-5">
                     <h2 className="text-[#BD863F] text-3xl font-normal uppercase">
                         Tus compañeros de negocios

@@ -16,7 +16,7 @@ const PilaresCard: React.FC<{ title: string; description: string; icon: string; 
 
 const LongCard: React.FC<{ title: string; description: string; src: string; alt: string }> = ({ title, description, src, alt }) => {
   return (
-    <div className="flex w-full flex-row gap-[50px]">
+    <div className="flex w-full flex-col xl:flex-row gap-[50px]">
       <div className="flex flex-col flex-grow p-[40px] gap-[20px] items-start rounded-lg justify-center bg-[#F3E6C7] border-solid border-2 border-opacity-20 border-[#916834] text-[#916834] text-justify">
         <h4 className="text-[25px] font-bold text-center underline">
           {title}
@@ -111,7 +111,7 @@ export default function Home() {
                 description={`Verificamos la calidad y cantidad de los productos recibidos para asegurar su conformidad.
                 <br/>
                 <br/>
-                ADVERTENCIA: En caso de problemas con el empaquetado o los productos, ofrecemos soluciones como cambio de embalaje o devolución.`}
+                ACLARACiÓN: En caso de problemas con el empaquetado o los productos, ofrecemos soluciones como cambio de embalaje o devolución.`}
                 src="/inspeccion-productos.svg"
                 alt="Inspección de Productos"
               />
@@ -190,7 +190,7 @@ export default function Home() {
                       WePrep ofrece un listado de productos sugeridos que cuentan tanto con métricas de <strong>ROI</strong> y <strong>Profit</strong> considerables que serán ideales para aquellos usuarios de Amazon que desarrollen el negocio de Online Arbitrage.
                     </p>
                     <h4 className="text-[25px] font-bold text-center">
-                      FBA
+                      Obtene tus Productos
                     </h4>
                   </div>
                 </div>
