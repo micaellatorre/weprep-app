@@ -24,7 +24,7 @@ const LongCard: React.FC<{ title: string; description: string; src: string; alt:
         </h4>
         <p className="text-[16px] sm:text-[18px] leading-[25px]" dangerouslySetInnerHTML={{ __html: description }} />
       </div>
-      <div className="flex flex-shrink-0 justify-center h-[280px] sm:h-[420px] w-[320px] sm:w-[420px] p-[30px] sm:px-[80px] sm:py-[60px] rounded-lg bg-[#F3E6C7]">
+      <div className="flex flex-shrink-0 justify-center h-[280px] sm:h-[420px] w-full sm:w-[420px] p-[30px] sm:px-[80px] sm:py-[60px] rounded-lg bg-[#F3E6C7]">
         <Image src={src} alt={alt} width={300} height={300} className="object-fill w-[220px] h-[220px] sm:w-[300px] sm:h-[300px]" />
       </div>
     </div>
