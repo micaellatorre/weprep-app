@@ -6,9 +6,9 @@ import Carousel from "components/widgets/Carousel";
 
 const Row: React.FC<{ title: string; description: string; icon: string; iconAlt: string }> = ({ title, description, icon, iconAlt }) => {
     return (
-        <div className="flex flex-row gap-[20px] items-center">
-            <Image src={icon} alt={iconAlt} width={50} height={50} />
-            <p>
+        <div className="flex flex-row gap-[10px] sm:gap-[20px] items-start sm:items-center">
+            <Image src={icon} alt={iconAlt} width={50} height={50} className="h-[40px] w-[40px] sm:h-[50px] sm:w-[50px]" />
+            <p className="text-[16px] sm:text-[18px]">
                 <span className="underline">{title}</span>: {description}
             </p>
         </div>
@@ -17,9 +17,9 @@ const Row: React.FC<{ title: string; description: string; icon: string; iconAlt:
 
 const Item: React.FC<{ price: string; description: string; icon: string; iconAlt: string }> = ({ price, description, icon, iconAlt }) => {
     return (
-        <div className="flex flex-row gap-[20px] items-center">
-            <Image src={icon} alt={iconAlt} width={50} height={50} />
-            <p>
+        <div className="flex flex-row gap-[10px] sm:gap-[20px] items-start sm:items-center">
+            <Image src={icon} alt={iconAlt} width={50} height={50} className="h-[40px] w-[40px] sm:h-[50px] sm:w-[50px]" />
+            <p className="text-[16px] sm:text-[18px]">
                 {description} <span className="font-bold">{price}</span>
             </p>
         </div>
@@ -28,16 +28,16 @@ const Item: React.FC<{ price: string; description: string; icon: string; iconAlt
 
 const OptionsFBA: React.FC<{ title: string; description: string; src: string; alt: string; precio: string; bg: string; p: string }> = ({ title, description, src, alt, precio, bg, p }) => {
     return (
-        <div className="flex flex-col p-[30px] gap-[30px] items-center rounded-lg justify-start bg-[#FFFFFF] bg-opacity-40 text-[#916834] text-justify md:flex-1">
-            <div className={`relative w-full h-[300px] ${bg} p-[60px] rounded-md`}>
+        <div className="flex flex-col w-full sm:w-auto px-[20px] pt-[20px] pb-[30px] sm:p-[30px] gap-[20px] sm:gap-[30px] items-center rounded-lg justify-start bg-[#FFFFFF] bg-opacity-40 text-[#916834] text-justify md:flex-1">
+            <div className={`relative w-full h-[210px] sm:h-[300px] ${bg} rounded-md`}>
                 <Image src={src} alt={alt} fill className={`${p}`} />
             </div>
             <div className="flex flex-col w-full gap-[15px]">
-                <div className="flex flex-row w-full justify-between">
-                    <h4 className="text-[25px] font-bold text-center">
+                <div className="flex flex-col sm:flex-row w-full text-start gap-[15px] justify-between">
+                    <h4 className="text-[25px] leading-[25px] font-bold">
                         {title}
                     </h4>
-                    <p className="text-[25px] font-thin">
+                    <p className="text-[25px] leading-[25px] font-thin">
                         {precio}
                     </p>
                 </div>
@@ -76,43 +76,45 @@ export default function Servicios() {
                 <title>WePrep - Servicios</title>
                 <meta name="description" content="Explora nuestros servicios principales son FBA y FBM. Nos orgullecemos de ofrecer soluciones integrales para tus necesidades de comercio en Amazon. Desde la recepción hasta el envío, nos encargamos de cada paso del proceso logístico para garantizar la eficiencia y la calidad en tus operaciones. Descubre cómo podemos simplificar tu experiencia de venta en línea y ayudarte a alcanzar tus objetivos comerciales." />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
             </Head>
             <main className="flex min-h-screen w-full flex-col items-center justify-center bg-[#FAF7EA]">
                 <NavBar />
-                <div className="flex flex-col px-24 pt-44 pb-24 gap-16 2xl:px-52">
+                <div className="flex flex-col px-[20px] sm:px-24 pt-[120px] pb-[50px] sm:pt-40 sm:pb-24 gap-[50px] sm:gap-14 2xl:px-52">
                     {/* Intro */}
-                    <div className="flex flex-col gap-10">
-                        <h3 className="text-[40px] text-[#916834] font-bold">
+                    <div className="flex flex-col gap-[30px] sm:gap-10">
+                        <h3 className="text-[30px] sm:text-[40px] text-[#916834] font-bold">
                             Nuestros Servicios
                         </h3>
-                        <p className="text-[18px] text-[#916834] leading-8 text-justify">
+                        <p className="text-[16px] sm:text-[18px] text-[#916834] leading-[25px] text-justify">
                             Explora nuestros servicios principales: <strong>FBA</strong> y <strong>FBM</strong>. Nos orgullecemos de ofrecer soluciones integrales para tus necesidades de comercio en Amazon. Desde la recepción hasta el envío, nos encargamos de cada paso del proceso logístico para garantizar la eficiencia y la calidad en tus operaciones. Descubre cómo podemos simplificar tu experiencia de venta en línea y ayudarte a alcanzar tus objetivos comerciales.
                         </p>
                     </div>
                     {/* FBA */}
-                    <div className="flex flex-col gap-14">
-                        <div className="flex flex-col gap-8">
+                    <div className="flex flex-col gap-[30px] sm:gap-10">
+                        <div className="flex flex-col gap-[20px] sm:gap-6">
                             <h3 className="text-[30px] text-[#916834]">
                                 FBA
                             </h3>
-                            <p className="text-[18px] text-[#916834] leading-8 text-justify">
+                            <p className="text-[16px] sm:text-[18px] text-[#916834] leading-[25px] text-justify">
                                 Con nuestro servicio de Amazon FBA, ofrecemos una solución integral para simplificar tu experiencia de venta en línea. Desde la recepción meticulosa de tus productos hasta su preparación técnica según los estándares exigentes de Amazon, nos encargamos de cada paso del proceso. Con un enfoque en la eficiencia y la seguridad, garantizamos que tus productos lleguen a tiempo y en perfectas condiciones a los almacenes de Amazon, brindándote tranquilidad y permitiéndote centrarte en hacer crecer tu negocio.
                             </p>
                         </div>
-                        <div className="flex flex-col gap-8">
-                            <p className="text-[18px] text-[#916834] leading-8 text-justify">
+                        {/* Proceso FBA */}
+                        <div className="flex flex-col gap-[20px] sm:gap-8">
+                            <p className="text-[16px] sm:text-[18px] text-[#916834] leading-[25px] text-justify">
                                 Te invitamos a conocer nuestro proceso de trabajo para FBA:
                             </p>
                             <Carousel slides={slidesFBA} />
                         </div>
-                        <div className="flex flex-col gap-8">
+                        {/* Costos FBA */}
+                        <div className="flex flex-col gap-[20px] sm:gap-8">
                             <h3 className="text-[30px] text-[#916834]">
                                 Costos FBA
                             </h3>
-                            <div className="flex flex-col gap-12 p-12 bg-[#F3E6C7] border-solid border-2 border-opacity-20 border-[#916834] text-[#916834] text-justify rounded-md">
-                                <div className="flex flex-col gap-[30px]">
-                                    <p className="text-[18px] text-[#916834] leading-8 text-justify">
+                            <div className="flex flex-col gap-[30px] sm:gap-12 px-[20px] py-[30px] sm:p-12 bg-[#F3E6C7] border-solid border-2 border-opacity-20 border-[#916834] text-[#916834] text-justify rounded-md">
+                                <div className="flex flex-col gap-[20px] sm:gap-[30px]">
+                                    <p className="text-[16px] sm:text-[18px] text-[#916834] leading-8 text-justify">
                                         Todos los paquetes cuentan con:
                                     </p>
                                     <div className="flex flex-col gap-[30px]">
@@ -148,9 +150,10 @@ export default function Servicios() {
                                             iconAlt="Inspeccion Productos" />
                                     </div>
                                 </div>
-                                <h3 className="text-[30px] text-[#916834]">
+                                <h3 className="text-[25px] sm:text-[30px] text-[#916834]">
                                     Costos por Productos
                                 </h3>
+                                {/* Opciones */}
                                 <div className="flex flex-row gap-[30px] flex-wrap">
                                     <OptionsFBA
                                         title="Básico"
@@ -161,7 +164,7 @@ export default function Servicios() {
                                         alt="Básico"
                                         precio="$ 1.25 / ítem"
                                         bg='bg-[#F5E1C4]'
-                                        p='p-14'
+                                        p='p-10 sm:p-14'
                                     />
                                     <OptionsFBA
                                         title="Intermedio"
@@ -172,7 +175,7 @@ export default function Servicios() {
                                         alt="Intermedio"
                                         precio="$ 1.10 / ítem"
                                         bg='bg-gradient-to-b from-[#F9E7AE] to-[#F4DBBB]'
-                                        p='p-12'
+                                        p='p-8 sm:p-12'
                                     />
                                     <OptionsFBA
                                         title="Avanzado"
@@ -183,16 +186,17 @@ export default function Servicios() {
                                         alt="Avanzado"
                                         precio="$ 1 / ítem"
                                         bg='bg-gradient-to-b from-[#FEDF74] to-[#F9E6AE]'
-                                        p='p-10'
+                                        p='p-6 sm:p-10'
                                     />
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col gap-8">
+                        {/* Costos por Caja */}
+                        <div className="flex flex-col gap-[20px] sm:gap-8">
                             <h3 className="text-[30px] text-[#916834]">
                                 Costos por Caja
                             </h3>
-                            <div className="flex flex-wrap gap-[30px] p-12 bg-[#F3E6C7] border-solid border-2 border-opacity-20 border-[#916834] text-[#916834] text-justify rounded-md">
+                            <div className="flex flex-wrap gap-[30px] px-[20px] py-[30px] sm:p-12 bg-[#F3E6C7] border-solid border-2 border-opacity-20 border-[#916834] text-[#916834] text-justify rounded-md">
                                 <Item
                                     price="$2.50"
                                     description="Caja Pequeña - "
@@ -220,11 +224,12 @@ export default function Servicios() {
                                     iconAlt="Caja Sneaker" />
                             </div>
                         </div>
-                        <div className="flex flex-col gap-8">
+                        {/* Costos Adicionales */}
+                        <div className="flex flex-col gap-[20px] sm:gap-8">
                             <h3 className="text-[30px] text-[#916834]">
                                 Costos Adicionales
                             </h3>
-                            <div className="flex flex-col gap-[30px] p-12 bg-[#F3E6C7] border-solid border-2 border-opacity-20 border-[#916834] text-[#916834] text-justify rounded-md">
+                            <div className="flex flex-col gap-[30px] px-[20px] py-[30px] sm:p-12 bg-[#F3E6C7] border-solid border-2 border-opacity-20 border-[#916834] text-[#916834] text-justify rounded-md">
                                 <Item
                                     price="0.10c / artículo"
                                     description="Etiquetado de Fecha de Vencimiento - "
@@ -236,18 +241,8 @@ export default function Servicios() {
                                     icon="/symbol.svg"
                                     iconAlt="Item" />
                                 <Item
-                                    price="$1.50/ artículo"
-                                    description="Zapatos - "
-                                    icon="/symbol.svg"
-                                    iconAlt="Item" />
-                                <Item
                                     price="75c"
                                     description="Imagen - "
-                                    icon="/symbol.svg"
-                                    iconAlt="Item" />
-                                <Item
-                                    price="$2 / artículo"
-                                    description="Artículos de Cristalería -"
                                     icon="/symbol.svg"
                                     iconAlt="Item" />
                                 <Item
@@ -256,13 +251,13 @@ export default function Servicios() {
                                     icon="/symbol.svg"
                                     iconAlt="Item" />
                                 <Item
-                                    price="$3"
-                                    description="Paquete de Conjuntos 8-12 elementos - "
+                                    price="$2.50"
+                                    description="Paquete de Conjuntos 5-8 elementos - "
                                     icon="/symbol.svg"
                                     iconAlt="Item" />
                                 <Item
-                                    price="$2.50"
-                                    description="Paquete de Conjuntos 4-8 elementos - "
+                                    price="$3"
+                                    description="Paquete de Conjuntos 9-12 elementos - "
                                     icon="/symbol.svg"
                                     iconAlt="Item" />
                                 <Item
@@ -313,13 +308,13 @@ export default function Servicios() {
                             </div>
                         </div>
                     </div>
-                    {/* FBA */}
-                    <div className="flex flex-col gap-14">
-                        <div className="flex flex-col gap-8">
+                    {/* FBM */}
+                    <div className="flex flex-col gap-[30px] sm:gap-14">
+                        <div className="flex flex-col gap-[20px] sm:gap-8">
                             <h3 className="text-[30px] text-[#916834]">
                                 Próximamente - FBM
                             </h3>
-                            <p className="text-[18px] text-[#916834] leading-8 text-justify">
+                            <p className="text-[16px] sm:text-[18px] text-[#916834] leading-[25px] text-justify">
                                 Nuestro servicio de Amazon FBM estará disponible próximamente. Proporcionaremos una solución completa para tu negocio de comercio electrónico. Desde la recepción detallada de tus productos hasta su preparación meticulosa para el envío, nos ocuparemos de cada aspecto del proceso logístico. Con un enfoque en la precisión y la calidad, almacenaremos tus productos de manera segura y los prepararemos para el envío con atención al detalle. Nuestro objetivo es garantizar que tus productos lleguen a tus clientes finales de manera rápida y eficiente, ofreciéndote una solución integral para tus necesidades de venta en línea.
                             </p>
                         </div>

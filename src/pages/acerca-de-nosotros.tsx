@@ -12,18 +12,18 @@ export default function AcercaDeNosotros() {
                 <title>WePrep - Acerca de Nosotros</title>
                 <meta name="description" content="Somos un equipo de emprendedores argentinos que incursionamos en el apasionante mundo de Amazon FBA en el año 2022. Desde entonces, hemos experimentado un crecimiento significativo, alcanzando cifras de facturación que nos han permitido consolidarnos como vendedores exitosos en esta plataforma global." />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
             </Head>
             <main className="flex min-h-screen w-full flex-col items-center justify-center bg-[#FAF7EA]">
                 <NavBar />
-                <div className="flex flex-col px-24 pt-44 pb-24 gap-24 2xl:px-52">
+                <div className="flex flex-col px-[20px] sm:px-24 pt-[120px] pb-[50px] sm:pt-40 sm:pb-24 gap-[50px] sm:gap-24 2xl:px-52">
                     {/* Intro */}
-                    <div className="flex flex-col gap-10">
-                        <h3 className="text-[40px] text-[#916834] font-bold">
-                            Bienvenidos a WePrep
+                    <div className="flex flex-col gap-[30px] sm:gap-10">
+                        <h3 className="text-[30px] sm:text-[40px] text-[#916834] font-bold">
+                            Somos WePrep
                         </h3>
-                        <p className="text-[18px] text-[#916834] leading-8 text-justify">
-                            Somos un equipo de emprendedores argentinos que incursionamos en el apasionante mundo de Amazon FBA en el año 2022. Desde entonces, hemos experimentado un crecimiento significativo, alcanzando cifras de facturación que nos han permitido consolidarnos como vendedores exitosos en esta plataforma global.
+                        <p className="text-[16px] sm:text-[18px] text-[#916834] leading-[25px] text-justify">
+                            Un equipo de emprendedores argentinos que incursionamos en el apasionante mundo de Amazon FBA en el año 2022. Desde entonces, hemos experimentado un crecimiento significativo, alcanzando cifras de facturación que nos han permitido consolidarnos como vendedores exitosos en esta plataforma global.
                             <br />
                             <br />
                             Con el deseo de compartir nuestra experiencia y conocimientos con otros emprendedores, decidimos fundar WePrep un prep center integral diseñado para brindar un servicio completo a quienes desean adentrarse en el mundo del comercio electrónico a través de Amazon.
@@ -43,7 +43,7 @@ export default function AcercaDeNosotros() {
                             <br />
                             Estamos ansiosos por trabajar con vos.
                         </p>
-                        <p className="w-full text-[18px] text-[#916834] leading-8 text-end">
+                        <p className="w-full text-[16px] sm:text-[18px] text-[#916834] leading-8 text-end">
                             Atentamente, WePrep.
                         </p>
                     </div>

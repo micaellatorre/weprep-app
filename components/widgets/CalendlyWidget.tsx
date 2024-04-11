@@ -13,7 +13,7 @@ const CalendlyWidget: React.FC = () => {
     }, []);
 
     return (
-        <div className="calendly-inline-widget" data-url="https://calendly.com/micaellatorre/reunion-de-consulta?text_color=916834&primary_color=ffc701" style={{ minWidth: '320px', height: '700px' }} />
+        <div className="calendly-inline-widget" data-url="https://calendly.com/weprepcenter/reunion-de-consulta?text_color=916834&primary_color=ffc701" style={{ minWidth: '320px', height: '700px' }} />
     );
 };
 
