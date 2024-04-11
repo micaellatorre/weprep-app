@@ -83,9 +83,9 @@ export default function Servicios() {
                 <div className="flex flex-col px-[20px] sm:px-24 pt-[120px] pb-[50px] sm:pt-40 sm:pb-24 gap-[50px] sm:gap-14 2xl:px-52">
                     {/* Intro */}
                     <div className="flex flex-col gap-[30px] sm:gap-10">
-                        <h3 className="text-[30px] sm:text-[40px] text-[#916834] font-bold">
+                        <h1 className="text-[30px] sm:text-[40px] text-[#916834] font-bold">
                             Nuestros Servicios
-                        </h3>
+                        </h1>
                         <p className="text-[16px] sm:text-[18px] text-[#916834] leading-[25px] text-justify">
                             Explora nuestros servicios principales: <strong>FBA</strong> y <strong>FBM</strong>. Nos orgullecemos de ofrecer soluciones integrales para tus necesidades de comercio en Amazon. Desde la recepción hasta el envío, nos encargamos de cada paso del proceso logístico para garantizar la eficiencia y la calidad en tus operaciones. Descubre cómo podemos simplificar tu experiencia de venta en línea y ayudarte a alcanzar tus objetivos comerciales.
                         </p>

@@ -46,9 +46,9 @@ export default function Home() {
         <div className="flex flex-col px-[20px] sm:px-24 pt-[80px] pb-[50px] sm:pt-24 sm:pb-24 gap-[80px] sm:gap-24 2xl:px-52">
           {/* Quienes Somos */}
           <div className="flex flex-col gap-[30px] sm:gap-10">
-            <h3 className="text-[30px] sm:text-[40px] text-[#916834] font-bold">
+            <h1 className="text-[30px] sm:text-[40px] text-[#916834] font-bold">
               ¿Quiénes Somos?
-            </h3>
+            </h1>
             <p className="text-[16px] sm:text-[18px] text-[#916834] leading-8 text-justify">
               Somos un equipo de emprendedores argentinos que incursionamos en el apasionante mundo de Amazon FBA en el año 2022. Desde entonces, hemos experimentado un crecimiento significativo, alcanzando cifras de facturación que nos han permitido consolidarnos como vendedores exitosos en esta plataforma global.
               <br />

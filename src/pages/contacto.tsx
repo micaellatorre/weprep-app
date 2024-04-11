@@ -43,11 +43,11 @@ export default function Contacto() {
                 <div className="flex flex-col px-[20px] sm:px-24 pt-[120px] pb-[50px] sm:pt-40 sm:pb-24 gap-[50px] sm:gap-24 2xl:px-52">
                     {/* Intro */}
                     <div className="flex flex-col gap-[30px] sm:gap-10">
-                        <h3 className="text-[30px] sm:text-[40px] text-[#916834] font-bold">
+                        <h1 className="text-[30px] sm:text-[40px] text-[#916834] font-bold">
                             Gracias por elegir WePrep!
-                        </h3>
+                        </h1>
                         <p className="text-[16px] sm:text-[18px] text-[#916834] leading-[25px] text-justify">
-                            A continuación encontrarás los datos para contactar a nuestro equipo. Seguido por el formulario de contacto con el que nuestros equipo podrá  para ayudarte en lo que necesites.
+                            A continuación encontrarás los datos para contactar a nuestro equipo. Seguido por el formulario de contacto con el que nuestro equipo podrá  para ayudarte en lo que necesites. Por último encontrarás integrado el calendarios de reservas para coordinar una reunión nosotros. 
                         </p>
                         <div className="flex flex-row gap-[20px] sm:gap-[30px] flex-wrap">
                             <InfoCard
@@ -60,7 +60,7 @@ export default function Contacto() {
                                 description="+54 9 11 3113-4463"
                                 icon="/telefono.svg"
                                 iconAlt="Teléfono"
-                                link='https://Wa.me/+5491131134463'
+                                link='https://api.whatsapp.com/send/?phone=5491131134463&text&type=phone_number&app_absent=0'
                                 bttn='chat' />
                             <InfoCard
                                 description="weprepcenter@gmail.com"
