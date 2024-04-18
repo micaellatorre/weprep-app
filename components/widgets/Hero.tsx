@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
                     <h1 className="sm:w-[800px] font-extrabold text-[#433601] text-[30px] sm:text-[48px] uppercase">
                         Cuidamos tus productos como si fueran nuestros
                     </h1>
-                    <p className="text-[#916834] text-[16px] sm:text-lg font-normal max-w-[752px]">
+                    <p className="text-[#916834] text-[16px] sm:text-lg font-normal max-w-[752px] text-justify">
                         Nos especializamos en la recepción, evaluación y adecuación de productos conforme a los rigurosos criterios de preparación establecidos por <strong>Amazon</strong>, de modo que nuestros clientes puedan dedicarse a expandir sus negocios, explorando y descubriendo nuevas opciones de productos.
                     </p>
                 </div>

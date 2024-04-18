@@ -26,7 +26,7 @@ export default function Contacto() {
         <>
             <Head>
                 <title>WePrep - Contáctenos</title>
-                <meta name="description" content="A continuación encontrarás los datos para contactar a nuestro equipo. Seguido por el formulario de contacto con el que nuestros equipo podrá para ayudarte en lo que necesites.
+                <meta name="description" content="A continuación encontrarás los datos para contactar a nuestro equipo. Seguido por el formulario de contacto con el que nuestros equipo podrá ayudarte en lo que necesites.
                 Ubicación
                 16950 North Bay Road, Apt 2508
                 Teléfono
@@ -47,14 +47,14 @@ export default function Contacto() {
                             Gracias por elegir WePrep!
                         </h1>
                         <p className="text-[16px] sm:text-[18px] text-[#916834] leading-[25px] text-justify">
-                            A continuación encontrarás los datos para contactar a nuestro equipo. Seguido por el formulario de contacto con el que nuestro equipo podrá  para ayudarte en lo que necesites. Por último encontrarás integrado el calendarios de reservas para coordinar una reunión nosotros. 
+                            A continuación encontrarás los datos para contactar a nuestro equipo. Seguido por el formulario de contacto con el que nuestro equipo podrá ayudarte en lo que necesites. Por último encontrarás integrado el calendarios de reservas para coordinar una reunión nosotros. 
                         </p>
                         <div className="flex flex-row gap-[20px] sm:gap-[30px] flex-wrap">
                             <InfoCard
-                                description="16950 North Bay Road, Apt 2508"
+                                description="20265 NE 15th Ct, Miami, FL 33179"
                                 icon="/ubicacion.svg"
                                 iconAlt="Ubicación"
-                                link='https://maps.app.goo.gl/T5rChUBwtgmtxzXs6'
+                                link='https://maps.app.goo.gl/2JJCR75AmBPiQhVn9?g_st=iw'
                                 bttn='ver mapa' />
                             <InfoCard
                                 description="+54 9 11 3113-4463"

@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>WePrep - Inicio</title>
+        <title>WePrep - Prep Center</title>
         <meta name="description" content="Nos especializamos en la recepción, evaluación y adecuación de productos conforme a los rigurosos criterios de preparación establecidos por Amazon, de modo que nuestros clientes puedan dedicarse a expandir sus negocios, explorando y descubriendo nuevas opciones de productos." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
