@@ -47,7 +47,7 @@ export default function Contacto() {
                             Gracias por elegir WePrep!
                         </h1>
                         <p className="text-[16px] sm:text-[18px] text-[#916834] leading-[25px] text-justify">
-                            A continuación encontrarás los datos para contactar a nuestro equipo. Seguido por el formulario de contacto con el que nuestro equipo podrá ayudarte en lo que necesites. Por último encontrarás integrado el calendarios de reservas para coordinar una reunión nosotros. 
+                            A continuación encontrarás los datos para contactar a nuestro equipo. Seguido por el formulario de contacto con el que nuestro equipo podrá ayudarte en lo que necesites. Por último encontrarás integrado el calendarios de reservas para coordinar una reunión con nosotros.
                         </p>
                         <div className="flex flex-row gap-[20px] sm:gap-[30px] flex-wrap">
                             <InfoCard
