@@ -261,23 +261,8 @@ export default function Servicios() {
                                     icon="/symbol.svg"
                                     iconAlt="Item" />
                                 <Item
-                                    price="$5 Por Envío"
-                                    description="Envío Saliente - "
-                                    icon="/symbol.svg"
-                                    iconAlt="Item" />
-                                <Item
                                     price="$25"
                                     description="Recepción de Pallets - "
-                                    icon="/symbol.svg"
-                                    iconAlt="Item" />
-                                <Item
-                                    price="$5 Por Marca"
-                                    description="Desetiquetado de Producto - "
-                                    icon="/symbol.svg"
-                                    iconAlt="Item" />
-                                <Item
-                                    price="0.20c / artículo"
-                                    description="Eliminación de Etiqueta de Precio - "
                                     icon="/symbol.svg"
                                     iconAlt="Item" />
                                 <Item

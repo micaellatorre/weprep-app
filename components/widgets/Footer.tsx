@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
 
   const socialLinks = [
     { title: 'Instagram', url: 'https://www.instagram.com/weprep.center', icon: '/instagram.svg' },
-    { title: 'Facebook', url: 'https://www.facebook.com/WePrep', icon: '/facebook.svg' }
+    { title: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61558622732115&mibextid=LQQJ4d&rdid=C4uwRZZo19clbnIH', icon: '/facebook.svg' }
   ];
 
   return (
