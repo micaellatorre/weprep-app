@@ -51,7 +51,7 @@ export default function Contacto() {
                         </p>
                         <div className="flex flex-row gap-[20px] sm:gap-[30px] flex-wrap">
                             <InfoCard
-                                description="20265 NE 15th Ct, Miami, FL 33179"
+                                description="20261 NE 15th Ct, Miami, FL 33179"
                                 icon="/ubicacion.svg"
                                 iconAlt="Ubicación"
                                 link='https://maps.app.goo.gl/2JJCR75AmBPiQhVn9?g_st=iw'
