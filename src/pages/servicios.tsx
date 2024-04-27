@@ -271,11 +271,6 @@ export default function Servicios() {
                                     icon="/symbol.svg"
                                     iconAlt="Item" />
                                 <Item
-                                    price="$2.75"
-                                    description="Artículos individuales con un peso entre 10 y 19 lbs. tarifa adicional por manipulación - "
-                                    icon="/symbol.svg"
-                                    iconAlt="Item" />
-                                <Item
                                     price="$5"
                                     description="Artículos individuales con un peso de 19 lbs. o más. tarifa adicional por manipulación - "
                                     icon="/symbol.svg"
