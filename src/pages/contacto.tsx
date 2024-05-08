@@ -50,12 +50,12 @@ export default function Contacto() {
                             A continuación encontrarás los datos para contactar a nuestro equipo. Seguido por el formulario de contacto con el que nuestro equipo podrá ayudarte en lo que necesites. Por último encontrarás integrado el calendarios de reservas para coordinar una reunión con nosotros.
                         </p>
                         <div className="flex flex-row gap-[20px] sm:gap-[30px] flex-wrap">
-                            <InfoCard
+                            {/* <InfoCard
                                 description="20261 NE 15th Ct, Miami, FL 33179"
                                 icon="/ubicacion.svg"
                                 iconAlt="Ubicación"
                                 link='https://maps.app.goo.gl/2JJCR75AmBPiQhVn9?g_st=iw'
-                                bttn='ver mapa' />
+                                bttn='ver mapa' /> */}
                             <InfoCard
                                 description="+54 9 11 3113-4463"
                                 icon="/telefono.svg"
