@@ -29,9 +29,6 @@ export default function AcercaDeNosotros() {
                             Con el deseo de compartir nuestra experiencia y conocimientos con otros emprendedores, decidimos fundar WePrep un prep center integral diseñado para brindar un servicio completo a quienes desean adentrarse en el mundo del comercio electrónico a través de Amazon.
                             <br />
                             <br />
-                            En WePrep entendemos las complejidades y desafíos que pueden surgir al iniciar un negocio en Amazon. Es por eso que nos comprometemos a ofrecer un servicio de prep center que va más allá del etiquetado de productos. Nos enfocamos en proporcionar asistencia integral a nuestros clientes, ayudándoles a resolver cualquier duda o inquietud que puedan tener en relación con su negocio en Amazon.
-                            <br />
-                            <br />
                             En WePrep entendemos las complejidades y desafíos que pueden surgir al iniciar un negocio en Amazon. Es por eso que nos comprometemos no sólo a ofrecer los servicios de prep center. Nos enfocamos en proporcionar asistencia integral a nuestros clientes, ayudándoles a resolver cualquier duda o inquietud que puedan tener en relación con su negocio en Amazon. Tales como: desbloqueo de marcas, posibles bloqueos de cuentas, asesoramiento para el correcto crecimiento de su negocio, edición de listado para MP, lista de productos, entre otros.
                             <br />
                             <br />
