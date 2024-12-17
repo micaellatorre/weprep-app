@@ -262,7 +262,12 @@ export default function Servicios() {
                                     iconAlt="Item" />
                                 <Item
                                     price="$25"
-                                    description="Recepción de Pallets - "
+                                    description="Recepción de Pallet - "
+                                    icon="/symbol.svg"
+                                    iconAlt="Item" />
+                                <Item
+                                    price="$30"
+                                    description="Salida de Pallet - "
                                     icon="/symbol.svg"
                                     iconAlt="Item" />
                                 <Item
